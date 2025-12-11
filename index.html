@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Name</title>
+  <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+ 
+  <div class="body-content">
+  <header>
+    <div class="top-bar">
+        <div class="logo-text">
+      <h1 class="logo">WEBSITE <span>NAME</span></h1>
+      <p class="tagline">YOUR PORTAL ORIGAMI STYLE WEB</p>
+      </div>
+      <img src="img/earth1-removebg-preview.png" alt="">
+    </div>
+    <nav>
+
+
+      <ul class="nav-menu">
+              <button class="menu-toggle" aria-label="Toggle menu">
+  &#9776; <!-- hamburger icon -->
+</button>
+   <div class="ribbon-wrapper">
+      <div class="fold"></div>
+      <div class="fold1"></div>
+      <div class="ribbon-click">
+        <span class="ribbon-text">
+          CLICK HERE<br />
+          <small>PLACE TEXT HERE</small>
+        </span>
+      </div>
+    </div>
+      </li>
+       <div class="menu">
+        <li><a href="#">Home</a></li>
+        <li id="click"><a href="#">Click</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contacts</a></li>
+       </div>
+       <div class="search">
+        <li><i class="fa fa-search"></i></li>
+        <li class="search-box"><input type="text"></li>
+        </div>
+    </ul>
+    </nav>
+  </header>
+
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+
+menuToggle.addEventListener('click', () => {
+  const isActive = menu.classList.toggle('active');
+  menuToggle.innerHTML = isActive ? '&#10006;' : '&#9776;'; // X or hamburger
+});
+
+</script>
+
+
+
+  <section class="hero">
+    <div class="map-chart">
+      <div class="map"><img src="img/map-3120436_1920-removebg-preview.png" alt=""></div>
+      <div class="graph"><img src="img/graph2.png" alt=""></div>
+    </div>
+  </section>
+
+  <main>
+    <div class="content">
+      <div class="left-section">
+       
+        <h2>Page Title Here - <span>your style</span></h2>
+        <h3 class="subtitle">The way we do business</h3>
+        <div class="left-alltext">
+         <div class="left-text">
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam eveniet ullam fuga quas. Impedit eius atque eos at tenetur optio debitis nulla voluptas culpa, quidem sequi et qui quas obcaecati vero laboriosam magni beatae fugiat nobis, ea accusantium, sit non? Nisi, voluptatem! Quia quo non rerum officiis, commodi aperiam amet iste veritatis numquam? Provident, culpa iusto. Temporibus qui, sed voluptates explicabo quaerat fuga? Blanditiis ipsam, similique non odio quod adipisci neque</p>
+
+        <div class="ratings">
+            <div class="all-ratings">
+          <p id="stars">What people think about us <br><strong>★★★★★</strong></p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, laboriosam debitis. Optio neque aperiam autem dolore facilis fugit obcaecati consequuntur reiciendis totam. Porro sint blanditiis non facilis voluptatibus fugiat, eligendi minima quod magnam consequuntur.</p>
+         </div>
+          <div class="device-info">
+            <div class="tablet">
+                 <i class="fa fa-tablet"></i>
+          <span id="tablet-info">Tablet</span>
+          </div>
+          <div class="phone">
+          <i class="fa fa-mobile-phone"></i>
+          <span id="mobile-info">Phone</span>
+          </div>
+        </div>
+        </div>
+        </div>
+        
+      
+
+        <div class="bubbles">
+          <div class="bubble1">3%</div>
+          <div class="bubble2">5%</div>
+          <div class="bubble3">5%</div>
+          <div class="bubble4">7%</div>
+          <div class="bubble5">7%</div>
+          <div class="bubble6">15%</div>
+          <div class="bubble7">15%</div>
+          <div class="bubble8">33%</div>
+          <div class="bubble9">37%</div>
+          </div>
+        </div>
+<div class="last-text">
+        <p id="last-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto saepe illum excepturi! Ratione excepturi molestiae ab aliquam possimus quasi exercitationem quam, quos ad culpa aut. Incidunt esse aliquid qui repellendus voluptas molestias consectetur suscipit velit aut voluptates explicabo omnis accusamus hic est, consequuntur maiores sint!</p>
+  </div>
+<div class="user-icons">
+  <img src="img/left-btn.png" alt="" id="backBtn">
+
+  <div class="users responsive">
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+    <div><img src="img/user-removebg-preview.png" alt=""></div>
+  </div>
+
+  <img src="img/right-btn-removebg-preview.png" alt="" id="nextBtn">
+</div>
+
+    
+      </div>
+
+
+
+      
+
+       <div class="login-card">
+        <div class="login">
+    <div class="ribbon">new</div>
+
+    <div class="field">
+      <label><i class='fa fa-user'></i> Personal ID</label>
+      <input type="text">
+    </div>
+
+    <div class="field">
+      <label><i class="fa fa-gear"></i> Security Code</label>
+      <input type="password">
+      <p>Place your text here place your text here place sample text Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </div>
+
+    <div class="go-button">
+      <div class="go-box">
+      <button>GO <i class="fa fa-arrow-right"></i></button>
+    </div>
+    </div>
+    </div>
+      <div class="envelope">
+    <img src="img/envelope1.png" alt="">
+    <div class="envelope-box"></div>
+  </div>
+  </div>
+
+
+
+
+    </div>
+  </main>
+
+  <footer>
+    <ul class="footer-links">
+      <li id="developer"><a href="">Developer</a></li>
+      <li><a href="">Investors</a></li>
+      <li><a href="">Relations</a></li>
+      <li><a href="">Quotations</a></li>
+      <li><a href="">News</a></li>
+      <li><a href="">Live support 24/7</a></li>
+      <li><a href="">Help</a></li>
+      <li id="site"><a href="">Site Map</a></li>
+    </ul>
+    <p class="copyright">
+      Copyright © 2011-2022 Web<span>Sitename</span>.com
+    </p>
+  </footer>
+  </div>
+
+
+  <div class="sidebar">
+  <div class="top">
+    <div class="id">
+      <p><span>ID</span> 22824080</p>
+    </div>
+    <div class="id1">
+      <p><span>	&#169;</span> Davidarts | Dreamstime.com</p>
+    </div>
+  </div>
+
+  <div class="scissor">
+    <i>&#9986;</i>
+  </div>
+
+  <div class="bottom">
+    <i class="fa fa-spinner"></i>
+    <div class="bottom-text">
+      <p>Download from</p>
+      <p id="dream">Dreamstime.com</p>
+      <p id="watermark">This watermarked comp image is for previewing purpose only.</p>
+    </div>
+  </div>
+</div>
+  <button id="toggleSidebar">☰</button>
+<script>
+  const sidebar = document.querySelector('.sidebar');
+  const toggleBtn = document.getElementById('toggleSidebar');
+
+  toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('show');
+    toggleBtn.classList.toggle('shifted');
+
+    // Change icon between ☰ and ×
+    if (sidebar.classList.contains('show')) {
+      toggleBtn.textContent = '×';
+    } else {
+      toggleBtn.textContent = '☰';
+    }
+  });
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $('.responsive').slick({
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 6, /* show 6 images in one row */
+    slidesToScroll: 1,
+    prevArrow: $('#backBtn'),
+    nextArrow: $('#nextBtn'),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+    ]
+  });
+});
+
+</script>
+
+</body>
+</html>
